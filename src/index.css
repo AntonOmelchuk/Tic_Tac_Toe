@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(to right, #cfd9df, #e2ebf0);
+  box-sizing: border-box;
+  outline: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header,
+.footer {
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(to right, #000000, #434343);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 600;
+  color: #ddd;
+}
+
+.footer {
+  background: linear-gradient(to left, #000000, #434343);
+}
+
+.logo {
+  height: 50px;
+}
+
+.logo:hover {
+  opacity: .7;
+}
+
+.gameField {
+  width: 464px;
+  height: 462px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gameCage {
+  width: 150px;
+  height: 150px;
+  border: 3px solid rgba(52, 54, 53, 0.72);
+}
+
+.gameCage:hover {
+  cursor: pointer;
+}
+
+.gameCage1,
+.gameCage2,
+.gameCage3 {
+  border-top: none;
+}
+
+.gameCage1,
+.gameCage4,
+.gameCage7 {
+  border-left: none;
+}
+
+.gameCage3,
+.gameCage6,
+.gameCage9 {
+  border-right: none;
+}
+
+.gameCage7,
+.gameCage8,
+.gameCage9 {
+  border-bottom: none;
+}
+
+.square {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  line-height: 120px;
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+.square:focus {
+  outline: none;
+}
+
+

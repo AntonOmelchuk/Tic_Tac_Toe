@@ -1,7 +1,7 @@
 {
   "name": "tic-tac-toe",
   "version": "0.1.0",
-  "homepage": "http://AntonOmelchuk.github.io/react-tic-tac-toe",
+  "homepage": "https://antonomelchuk.github.io/Tic_Tac_Toe/",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
